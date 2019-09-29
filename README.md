@@ -89,7 +89,7 @@ VUE_APP_NAME='bf-web'
 VUE_APP_TITLE='基础前端框架 - 示例'
 
 // vue.config.js 文件配置服务器代理
-target: 'http://172.29.3.117'
+target: 'http://192.168.1.1'
 ```
 
 ### 六、介绍一下开发阶段的常用 npm 命令
