@@ -6,7 +6,7 @@
 2. 该工程依赖 node / npm 环境请自行搭建，部署前请一并检出依赖包
 3. 请确保至少部署了一个后端工程，基础框架目录在 SVN 中：http://172.30.4.122/svn/javacode/springboot-base-framework/bf-html
 4. 请在开始全新工程前配置对应的权限，角色及授权用户
-5. 建议开发工具为 VSCode 并安装好响应的扩展（Sublime Text 也可以不过易用程度较低）
+5. 建议开发工具为 VSCode 并安装好相应的扩展（Sublime Text 也可以不过易用程度较低）
 
 ### 二、工程目录结构
 
