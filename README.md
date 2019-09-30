@@ -10,23 +10,21 @@
 
 ### 二、工程目录结构
 
-其中 **/** 开头的为文件夹，这里只列出了需要关注的目录结构，全部的目录结构请自行对比工程目录（从 SVN 检出最新工程）
-
 ```
-┬─ /node_modules
-├─ /public
+┬─ node_modules/
+├─ public/
 │  ├─ favicon.ico
 │  ├─ index.html
-├─ /src
-│  ├─ /assets
-│  ├─ /components
-│  ├─ /views
+├─ src/
+│  ├─ assets/
+│  ├─ components/
+│  ├─ views/
 │  ├─ App.vue
 │  ├─ common.js
 │  ├─ main.js
 │  ├─ router.js
 │  ├─ store.js
-├─ /tests
+├─ tests/
 ├─ .env
 └─ vue.config.js
 ```
