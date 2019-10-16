@@ -5,13 +5,13 @@ module.exports = {
   publicPath: IS_PROD ? `/${APP_NAME}/` : '/',
   devServer: {
     open: false,
-    host: '172.30.20.27',
+    host: '192.168.1.27',
     port: 80,
     https: false,
     hotOnly: false,
     proxy: {
       [`/${APP_NAME}`]: {
-        target: 'http://172.29.3.117',
+        target: 'http://192.168.1.117',
         pathRewrite: { [`^/${APP_NAME}`]: `/${APP_NAME}` }
       }
     }
