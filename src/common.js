@@ -67,7 +67,7 @@ export default {
       console.log(e)
 
       // Status code (403) def logged timeout
-      e === FORBIDDEN && Vue.prototype.$alert(...TIMEOUT)
+      e === FORBIDDEN && TIMEOUT[2].callback()
     }
   }
 }
